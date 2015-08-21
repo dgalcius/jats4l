@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<!-- The content and tagging of this article were modified from the original article:
+ Liu J, Bang AG, Kintner C, Orth AP, Chanda SK, Ding S, Schultz PG. Fluid-flow-induced flutter of a flag. Proc Natl Acad Sci U S A. 2005 Feb 8;102(6):1829-1834.
+ The modifications made were for tagging illustrations only.  -->
+<article article-type="research-article" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Proc Natl Acad Sci U S A</journal-id>
+      <journal-id journal-id-type="publisher-id">pnas</journal-id>
+      <journal-title>Proceedings of the National Academy of Sciences of the United States of America</journal-title>
+      <issn pub-type="ppub">0027-8424</issn>
+      <issn pub-type="epub">1091-6490</issn>
+      <publisher>
+        <publisher-name>National Academy of Sciences</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="publisher-id">01021829</article-id>
+      <article-id pub-id-type="doi">10.1073/pnas.0408383102</article-id>
+      <article-id pub-id-type="pmid">15684057</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Physical Sciences</subject>
+          <subj-group>
+            <subject>Applied Mathematics</subject>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Fluid-flow-induced flutter of a flag</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name><surname>Liu</surname><given-names>Jun</given-names></name>
+          <xref ref-type="aff" rid="A1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name><surname>Bang</surname><given-names>Anne G.</given-names></name>
+          <xref ref-type="aff" rid="A2">&#x02020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name><surname>Kintner</surname><given-names>Chris</given-names></name>
+          <xref ref-type="aff" rid="A2">&#x02020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name><surname>Orth</surname><given-names>Anthony P.</given-names></name>
+          <xref ref-type="aff" rid="A3">&#x02021;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name><surname>Chanda</surname><given-names>Sumit K.</given-names></name>
+          <xref ref-type="aff" rid="A3">&#x02021;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name><surname>Ding</surname><given-names>Sheng</given-names></name>
+          <xref ref-type="aff" rid="A1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name><surname>Schultz</surname><given-names>Peter G.</given-names></name>
+          <xref ref-type="aff" rid="A1">*</xref>
+          <xref ref-type="aff" rid="A3">&#x02021;</xref>
+          <xref ref-type="fn" rid="FN1">&#x000a7;</xref>
+        </contrib>
+      </contrib-group>
+       <aff id="A1">
+         <label>*</label>Department of Chemistry and The Skaggs Institute for Chemical Biology, The Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA 92037
+       </aff>
+       <aff id="A2">
+         <label>&#x02020;</label>The Salk Institute for Biological Studies, P.O. Box 85800, La Jolla, CA 92186
+       </aff>
+       <aff id="A3">
+         <label>&#x02021;</label>Genomics Institute of The Novartis Research Foundation, 10675 John Jay Hopkins Drive, San Diego, CA 92121
+       </aff>
+       <author-notes>
+         <fn id="FN1">
+           <label>&#x000a7;</label>
+           <p>To whom correspondence should be addressed. E-mail: <email>schultz@scripps.edu</email>.</p>
+         </fn>
+         <fn><p>Contributed by Peter G. Schultz, December 17, 2004</p></fn>
+       </author-notes>
+      <pub-date pub-type="ppub">
+        <day>8</day>
+        <month>2</month>
+        <year>2005</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>1</month>
+        <year>2005</year>
+      </pub-date>
+      <volume>102</volume>
+      <issue>6</issue>
+      <fpage>1829</fpage>
+      <lpage>1834</lpage>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>2</month>
+          <year>2004</year>
+        </date>
+        <date date-type="accepted">
+          <day>10</day>
+          <month>8</month>
+          <year>2004</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#x000a9; 2005, The National Academy of Sciences</copyright-statement>
+        <copyright-year>2005</copyright-year>
+      </permissions>
+      <abstract>
+        <p>We give an explanation for the onset of fluid-flow-induced flutter in a flag. Our theory accounts for the various physical mechanisms at work: the finite length and the small but finite bending stiffness of the flag, the unsteadiness of the flow, the added mass effect, and vortex shedding from the trailing edge. Our analysis allows us to predict a critical speed for the onset of flapping as well as the frequency of flapping. We find that in a particular limit corresponding to a low-density fluid flowing over a soft high-density flag, the flapping instability is akin to a resonance between the mode of oscillation of a rigid pivoted airfoil in a flow and a hinged-free elastic plate vibrating in its lowest mode.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <p>The flutter of a flag in a gentle breeze and the flapping of a sail in a rough wind are commonplace and familiar observations of a rich class of problems involving the interaction of fluids and structures, of wide interest and importance in science and engineering (<xref ref-type="bibr" rid="R1">1</xref>). Folklore attributes this instability to some combination of (<italic>i</italic>) the B&#x000e9;nard&#x02013;von K&#x000e1;rm&#x000e1;n vortex street that is shed from the trailing edge of the flag and (<italic>ii</italic>) the Kelvin&#x02013;Helmholtz problem of the growth of perturbations at an interface between two inviscid fluids of infinite extent moving with different velocities (<xref ref-type="bibr" rid="R2">2</xref>). However, a moment's reflection makes one realize that neither of these is correct. The frequency of vortex shedding from a thin flag (with an audible acoustic signature) is much higher than that of the observed flapping, while the lack of a differential velocity profile across the flag and its finite flexibility and length make it qualitatively different from the Kelvin&#x02013;Helmholtz problem. After the advent of high-speed flight, these questions were revisited in the context of aerodynamically induced wing flutter by Theodorsen (<xref ref-type="bibr" rid="R3">3</xref>&#x02013;<xref ref-type="bibr" rid="R5">5</xref>). While this important advance made it possible to predict the onset of flutter for rigid plates, these analyses are not directly applicable to the case of a spatially extended elastic system such as a flapping flag. Recently, experiments on an elastic filament flapping in a flowing soap film (<xref ref-type="bibr" rid="R6">6</xref>) and of paper sheets flapping in a breeze (ref. <xref ref-type="bibr" rid="R7">7</xref> and references therein) have been used to further elucidate aspects of the phenomena such as the inherent bistability of the flapping and stationary states, and a characterization of the transition curve. In addition, numerical solutions of the inviscid hydrodynamic (Euler) equations using an integral equation approach (<xref ref-type="bibr" rid="R8">8</xref>) and of the viscous (Navier&#x02013;Stokes) equations (<xref ref-type="bibr" rid="R9">9</xref>) have shown that it is possible to simulate the flapping instability. However, the physical mechanisms underlying the instability remain elusive. In this paper, we remedy this in terms of the following picture: For a given flag, there is a critical flow velocity above which the fluid pressure can excite a resonant bending instability, causing it to flutter. In fact, we show that in the limit of a heavy flag in a fast-moving light fluid the instability occurs when the frequency associated with the lowest mode of elastic bending vibrations of the flag becomes equal to the frequency of aerodynamic oscillations of a hinged rigid plate immersed in a flow.</p>
+    <p>Physically, the meaning of this result is as follows: For a heavy flag in a rapid flow, the added mass effect due to fluid motion is negligible so that the primary effect of the fluid is an inertial pressure forcing on the plate. For a plate of length <italic>L</italic> weakly tilted at an angle &#x003b8;, the excess fluid pressure on it scales as &#x003c1;<italic><sub>f</sub>U</italic><sup>2</sup>&#x003b8;, where &#x003c1;<italic><sub>f</sub></italic> is the fluid density and <italic>U</italic> is the fluid velocity. The inertia of a plate of thickness <italic>h</italic>, of density &#x003c1;<italic><sub>s</sub></italic>, and oscillating at a frequency &#x003c9;<italic><sub>a</sub></italic> scales as &#x003c1;<italic><sub>s</sub>h</italic>&#x003c9;<sup>2</sup><italic><sub>a</sub>L</italic>&#x003b8;. Equating the two yields the frequency of oscillations of a freely hinged rigid plate approximately parallel to the flow &#x003c9;<italic><sub>a</sub></italic> &#x0223c; (&#x003c1;<italic><sub>f</sub>U</italic><sup>2</sup>/&#x003c1;<italic><sub>s</sub>hL</italic>)<sup>1/2</sup>. On the other hand, for a flexible plate of thickness <italic>h</italic> and made of a material of Young's modulus <italic>E</italic> (bending stiffness of order <italic>Eh</italic><sup>3</sup>) the elastic restoring force per unit length due to a deflection by the same angle &#x003b8; scales as <italic>Eh</italic><sup>3</sup>&#x003b8;/<italic>L</italic><sup>3</sup> so that the frequency of the lowest mode of free bending vibrations of a flexible plate &#x003c9;<italic><sub>b</sub></italic> &#x0223c; (<italic>Eh</italic><sup>2</sup>/&#x003c1;<italic><sub>s</sub>L</italic><sup>4</sup>)<sup>1/2</sup>. Equating the two yields a critical velocity for the onset of flutter of a plate of given length <italic>U<sub>c</sub></italic> &#x0223c; (<italic>Eh</italic><sup>3</sup>/&#x003c1;<italic><sub>f</sub>L</italic><sup>3</sup>)<sup>1/2</sup>. As we will see in the following sections, this simple result arises naturally from the analysis of the governing equations of motion of the flag and the fluid. In particular, our analysis is capable of accounting for the unsteady nature of the problem in terms of the added mass of the fluid and the vortex shedding from the trailing edge in terms of the seminal ideas of Theodorsen (<xref ref-type="bibr" rid="R3">3</xref>).</p>
+    <sec sec-type="methods">
+      <title>Equations of Motion</title>
+      <sec>
+        <title>Elasticity</title>
+        <p>We consider the dynamics of an inextensible two-dimensional elastic plate<xref ref-type="fn" rid="FN1">b</xref> of length <italic>L</italic>, width <italic>l</italic>, and thickness <italic>h</italic> &#x0226a; <italic>L</italic> &#x0226a; <italic>l</italic>, made of a material of density &#x003c1;<italic><sub>s</sub></italic> and Young's modulus <italic>E</italic> embedded in a three-dimensional parallel flow of an ambient fluid with a density &#x003c1;<italic><sub>f</sub></italic> and kinematic viscosity &#x003bd;, shown schematically in <xref ref-type="fig" rid="F1">Fig. 1</xref>. We assume that the leading edge of the naturally straight plate is clamped at the origin with its tangent along the <italic>x</italic> axis and that there are no variations in the flow along the direction of the clamped edge, and that far from the plate, the fluid velocity <bold>U</bold> = <italic>U</italic><bold>x</bold>. Then the transverse position of the plate <italic>Y</italic>(<italic>x, t</italic>) satisfies the equation of motion (<xref ref-type="bibr" rid="R10">10</xref>): <disp-formula id="FD1">
+          <label>[1]</label>
+          <mml:math id="M1"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mrow><mml:mi>mY</mml:mi></mml:mrow><mml:mrow><mml:mi>tt</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>BY</mml:mi></mml:mrow><mml:mrow><mml:mi>xxxx</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>l</mml:mi><mml:mi>Δ</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>TY</mml:mi></mml:mrow><mml:mrow><mml:mi>xx</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> Here, and elsewhere <italic>A<sub>b</sub></italic> &#x02261; &#x02202;<italic>A</italic>/&#x02202;<italic>b, m</italic> = &#x003c1;<italic><sub>s</sub>hl</italic> is the mass per unit length of the flag, <italic>B</italic> = <italic>Eh</italic><sup>3</sup><italic>l</italic>/12(1 &#x02013; &#x003c3;<sup>2</sup>) is its flexural rigidity (here &#x003c3; is the Poisson ratio of the material), &#x00394;<italic>P</italic> is the pressure difference across the plate due to fluid flow, and <italic>T</italic> is the tension in the flag induced by the flow.</p>
+      	<fig position="float" id="F1">
+      		<label>Fig. 1.</label>
+      		<caption>
+      			<p>Schematic representation of the system. An elastic plate of length <italic>L</italic>, width <italic>l</italic>, and thickness <italic>h</italic> &#x0226a; <italic>l</italic>, <italic>L</italic> clamped at the origin is embedded in a three-dimensional parallel flow of an inviscid fluid with velocity <italic>U</italic> in the <italic>x</italic> direction. Its transverse position is denoted by <italic>Y</italic> (<italic>x</italic>, <italic>t</italic>). The incomplete cylinders depict the real vortex that is shed from the trailing edge, and an imaginary vortex in the interior of the plate that moves inwards, and is necessary to preserve the impenetrability of the boundary of the plate.</p>
+      		</caption>
+      		<graphic xlink:href="zpq0010568410001"></graphic>
+      	</fig>
+        <p>In deriving Eq. <xref ref-type="disp-formula" rid="FD1">1</xref>, we have assumed that the slope of the plate is small so that we can neglect the effect of any geometrical nonlinearities; these become important in determining the detailed evolution of the instability but are not relevant in understanding the onset of flutter. For the case when the leading edge of the flag is clamped and the trailing edge is free, the boundary conditions associated with Eq. <xref ref-type="disp-formula" rid="FD1">1</xref> are (<xref ref-type="bibr" rid="R10">10</xref>): <disp-formula id="FD2">
+          <label>[2]</label>
+          <mml:math id="M2"><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mi>Y</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo rspace="0.1em">,</mml:mo><mml:mn>0</mml:mn><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo rspace="0.1em">,</mml:mo><mml:msub><mml:mi>Y</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo rspace="0.1em">,</mml:mo><mml:mn>0</mml:mn><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo rspace="0.1em">,</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mi>x</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo rspace="0.1em">,</mml:mo><mml:mi>L</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo rspace="0.1em">,</mml:mo><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mi>x</mml:mi><mml:mi>x</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo rspace="0.1em">,</mml:mo><mml:mi>L</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math>
+        </disp-formula></p>
+        <p>To close the system of Eqs. <xref ref-type="disp-formula" rid="FD1">1</xref> and <xref ref-type="disp-formula" rid="FD2">2</xref>, we must evaluate the fluid pressure &#x00394;<italic>P</italic> by solving the equations of motion for the fluid in the presence of the moving plate.</p>
+      </sec>
+      <sec>
+        <title>Aerodynamics</title>
+        <p>We will assume that the flow is incompressible, inviscid, and irrotational. Then the tension in the flag <italic>T</italic> = 0,<xref ref-type="fn" rid="FN3">c</xref> and we may describe the unsteady fluid flow as a superposition of a noncirculatory flow and a circulatory flow associated with vortex shedding, following the pioneering work of Theodorsen (<xref ref-type="bibr" rid="R3">3</xref>). This allows us to respect Kelvin's theorem preserving the total vorticity of the inviscid system (which is always zero) by considering a vortex sheet in the fluid and an image sheet of opposite strength that is in the plate. Both flows may be described by a disturbance velocity potential &#x003c6;, which itself may be decomposed into a noncirculatory potential, &#x003c6;<sub><italic>nc</italic></sub>, and a circulatory potential, &#x003c6;<sub>&#x003b3;</sub>, with &#x003c6; = &#x003c6;<italic><sub>nc</sub></italic> + &#x003c6;<sub>&#x003b3;</sub>. Then &#x003c6; satisfies the Laplace equation, &#x02207;<sup>2</sup>&#x003c6; = 0, characterizing the two-dimensional fluid velocity field, (<italic>u, v</italic>) = (&#x003c6;<sub><italic>x</italic></sub>, &#x003c6;<italic><sub>y</sub>
+        </italic>), with boundary conditions on the flag, &#x02207;&#x003c6;&#x000b7;<bold>n</bold>&#x0007c;<sub><italic>Y</italic>=0</sub> = <italic>Y<sub>t</sub></italic> + <italic>UY<sub>x</sub></italic>, and in the far-field, &#x02207;&#x003c6; &#x02192; 0 as <italic>r</italic> &#x02192; &#x0221e;.</p>
+        <p>For small deflections of the plate, the transverse velocity of the fluid, <italic>v</italic>, varies slowly along the plate. Then we may use a classical result from airfoil theory (<xref ref-type="bibr" rid="R11">11</xref>) for an airfoil moving with a velocity <italic>v</italic> = <italic>Y<sub>t</sub></italic> + <italic>UY<sub>x</sub></italic>, assumed to be vary only slightly from a constant, to deduce an approximate form for the noncirculatory velocity potential along the plate as (<xref ref-type="bibr" rid="R12">12</xref>) <disp-formula id="FD3">
+          <label>[3]</label>
+          <mml:math id="M3"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mi>nc</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:mi>x</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>L</mml:mi><mml:mo>-</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msqrt><mml:mo stretchy="false">[</mml:mo><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>UY</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> This expression neglects terms of order <italic>O</italic>(<italic>UY</italic><sub><italic>xt</italic></sub>) (and higher) that correspond physically to the rate of change of the local angle of the plate, which can only be systematically accounted for in a non-local way.<xref ref-type="fn" rid="FN4">d</xref> A true check of the validity of our model requires a comparison with the solution of the complete problem, constituting work in progress. However, as we will see, this simple model is able to capture the qualitative essence of the mechanisms involved and agrees reasonably with experiments. Proceeding forward, then, we can use the linearized Bernoulli relation to determine the jump in pressure due to the noncirculatory flow so that <disp-formula id="FD4">
+          <label>[4]</label>
+          <mml:math id="M4"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>nc</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mn>2</mml:mn><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mo>∂</mml:mo></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mi>nc</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>U</mml:mi><mml:msub><mml:mrow><mml:mo>∂</mml:mo></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mi>nc</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mi>U</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>2</mml:mn><mml:mi>x</mml:mi><mml:mo>-</mml:mo><mml:mi>L</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mi>x</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>L</mml:mi><mml:mo>-</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>UY</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>-</mml:mo><mml:mn>2</mml:mn><mml:msqrt><mml:mrow><mml:mi>x</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>L</mml:mi><mml:mo>-</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msqrt><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>tt</mml:mi></mml:mrow></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> Here we note that the fluid added-mass effect<xref ref-type="fn" rid="FN5">e</xref> is characterized by the term proportional to <italic>Y<sub>tt</sub></italic>, and again we have neglected terms of order <italic>O</italic>(<italic>Y<sub>xt</sub></italic>) and higher associated with very slow changes in the slope of the plate.</p>
+        <p>Kelvin's theorem demands that vorticity is conserved in an inviscid flow of given topology. Thus, the circulatory flow associated with vortex shedding from the trailing edge requires a vorticity distribution in the wake of the airfoil and a (bound) vorticity distribution in the airfoil to conserve the total vorticity. If a point vortex shed from the trailing edge of the plate with strength &#x02013;&#x00393; has a position (<italic>L</italic>/2)(1 + <italic>X</italic><sub>0</sub>), <italic>X</italic><sub>0</sub> &#x02265; 1, we must add a point vortex of strength &#x00393; in the interior of the sheet at (<italic>L</italic>/2)(1 + (1/<italic>X</italic><sub>0</sub>)). This leads to a circulatory velocity potential along the plate (<xref ref-type="bibr" rid="R3">3</xref>&#x02013;<xref ref-type="bibr" rid="R5">5</xref>) <disp-formula id="FD5">
+        <mml:math id="M5"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mi>Γ</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:mi>Γ</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>π</mml:mi></mml:mrow></mml:mfrac><mml:mi mathvariant="normal">arctan</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mfrac><mml:mrow><mml:msqrt><mml:mrow><mml:mi>x</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>L</mml:mi><mml:mo>-</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msqrt><mml:msqrt><mml:mrow><mml:msubsup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msqrt></mml:mrow><mml:mrow><mml:mfrac><mml:mrow><mml:mi>L</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>xx</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> where <italic>x</italic>
+        <sub>0</sub> = ((<italic>x</italic>
+        <sub>0</sub> + 1/<italic>X</italic>
+        <sub>0</sub>)/2) characterizes the nondimensional <italic>center of vorticity</italic>, which is at ((1 + <italic>x</italic>
+        <sub>0</sub>)/2). Therefore, for a distribution of vortices of strength &#x003b3; defined by &#x00393; = &#x003b3;(<italic>L</italic>/2)<italic>dx</italic>
+        <sub>0</sub>, the circulatory velocity potential is <disp-formula id="FD6">
+          <label>[5]</label>
+          <mml:math id="M6"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mi>γ</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>π</mml:mi></mml:mrow></mml:mfrac><mml:mfrac><mml:mrow><mml:mi>L</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac><mml:msubsup><mml:mrow><mml:mo>∫</mml:mo></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>∞</mml:mi></mml:mrow></mml:msubsup><mml:mi mathvariant="normal">arctan</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mfrac><mml:mrow><mml:msqrt><mml:mrow><mml:mi>x</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>L</mml:mi><mml:mo>-</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msqrt><mml:msqrt><mml:mrow><mml:msubsup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msqrt></mml:mrow><mml:mrow><mml:mfrac><mml:mrow><mml:mi>L</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>xx</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>)</mml:mo></mml:mrow><mml:mi>γ</mml:mi><mml:msub><mml:mrow><mml:mi>dx</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> To calculate the pressure difference due to the circulatory flow, we assume that the shed vorticity moves with the flow velocity <italic>U</italic> so that &#x02202;<italic><sub>t</sub></italic>&#x003c6;<sub>&#x003b3;</sub> = (2/<italic>L</italic>)<italic>U</italic>&#x02202;<italic><sub>x</sub></italic><sub>0</sub> &#x003c6;<sub>&#x003b3;</sub>.<xref ref-type="fn" rid="FN6">f</xref> Then, we may write (<xref ref-type="bibr" rid="R3">3</xref>) <disp-formula id="FD7">
+          <label>[6]</label>
+          <mml:math id="M7"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>γ</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mi>U</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>π</mml:mi><mml:msqrt><mml:mrow><mml:mi>x</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>L</mml:mi><mml:mo>-</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:msubsup><mml:mrow><mml:mo>∫</mml:mo></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>∞</mml:mi></mml:mrow></mml:msubsup><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:mi>x</mml:mi><mml:mo>+</mml:mo><mml:mi>L</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:msubsup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mi>γ</mml:mi><mml:msub><mml:mrow><mml:mi>dx</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> The vortex sheet strength &#x003b3; in the previous expression is determined by using the Kutta condition, which enforces the physically reasonable condition that the horizontal component of the velocity does not diverge at the trailing edge:<xref ref-type="fn" rid="FN7">g</xref>
+        <disp-formula id="FD8">
+          <label>[7]</label>
+          <mml:math id="M8"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:msub><mml:mrow><mml:mo>∂</mml:mo></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mi>γ</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mi>nc</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:msub><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:mrow><mml:mi>x</mml:mi><mml:mo>=</mml:mo><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi mathvariant="normal">finite</mml:mi></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> Substituting Eqs. <xref ref-type="disp-formula" rid="FD3">3</xref> and <xref ref-type="disp-formula" rid="FD6">5</xref> into Eq. <xref ref-type="disp-formula" rid="FD8">7</xref> yields the relation <disp-formula id="FD9">
+          <label>[8]</label>
+          <mml:math id="M9"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi> </mml:mi><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>π</mml:mi></mml:mrow></mml:mfrac><mml:msubsup><mml:mrow><mml:mo>∫</mml:mo></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>∞</mml:mi></mml:mrow></mml:msubsup><mml:msqrt><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msqrt><mml:mi>γ</mml:mi><mml:msub><mml:mrow><mml:mi>dx</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>UY</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> Multiplying and dividing Eq. <xref ref-type="disp-formula" rid="FD7">6</xref> by the two sides of Eq. <xref ref-type="disp-formula" rid="FD9">8</xref> we obtain <disp-formula id="FD10">
+          <label>[9]</label>
+          <mml:math id="M10"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:msub><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>γ</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>L</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>2</mml:mn><mml:mi>C</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mn>2</mml:mn><mml:mi>x</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>C</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mi>x</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>L</mml:mi><mml:mo>-</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mi>U</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>UY</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> where <disp-formula id="FD11">
+          <label>[10]</label>
+          <mml:math id="M11"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:mi>C</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>γ</mml:mi><mml:mo stretchy="false">]</mml:mo><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mo>∫</mml:mo></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>∞</mml:mi></mml:mrow></mml:msubsup><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:msubsup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mi>γ</mml:mi><mml:msub><mml:mrow><mml:mi>dx</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo>/</mml:mo><mml:msubsup><mml:mrow><mml:mo>∫</mml:mo></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>∞</mml:mi></mml:mrow></mml:msubsup><mml:msqrt><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msqrt><mml:mi>γ</mml:mi><mml:msub><mml:mrow><mml:mi>dx</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> is the Theodorsen functional (<xref ref-type="bibr" rid="R3">3</xref>) quantifying the unsteadiness of the flow. For example, for an airfoil at rest that starts to move suddenly at velocity <italic>U</italic>, &#x003b3; = &#x003b4;(<italic>x</italic>
+        <sub>0</sub> &#x02013; (2/<italic>L</italic>) <italic>Ut</italic>) corresponding to the generation of lift due to a vortex that is shed and advected with the fluid. Then <disp-formula id="FD12">
+          <label>[11]</label>
+          <mml:math id="M12"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:mi>C</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:mi>L</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>tU</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> We see that as <italic>Ut</italic>/<italic>L</italic> &#x02192; &#x0221e;, <italic>C</italic> &#x02192; 1, which limit corresponds to the realization of the Kutta condition for steady flow (<xref ref-type="bibr" rid="R12">12</xref>). Adding up the contributions to the pressure jump across the plate from the circulatory and noncirculatory flows given by Eqs. <xref ref-type="disp-formula" rid="FD6">5</xref> and <xref ref-type="disp-formula" rid="FD10">9</xref> we have &#x00394;<italic>P</italic> = <italic>P<sub>nc</sub></italic> + <italic>P</italic>
+        <sub>&#x003b3;</sub>, i.e., <disp-formula id="FD13">
+          <label>[12]</label>
+          <mml:math id="M13"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:mi>Δ</mml:mi><mml:mi>P</mml:mi><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mi>UC</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>γ</mml:mi><mml:mo stretchy="false">]</mml:mo><mml:mi>f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mfrac><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>L</mml:mi></mml:mrow></mml:mfrac><mml:mo>)</mml:mo></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>UY</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>-</mml:mo><mml:mi>L</mml:mi><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mi>n</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mfrac><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>L</mml:mi></mml:mrow></mml:mfrac><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>tt</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> where the dimensionless functions <italic>n</italic>(<italic>s</italic>) and <italic>f</italic>(<italic>s</italic>) are <disp-formula id="FD14">
+          <label>[13]</label>
+          <mml:math id="M14"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:mi>f</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>s</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:msqrt><mml:mrow><mml:mfrac><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:msqrt><mml:mo>,</mml:mo></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula>
+        <disp-formula id="FD15">
+          <label>[14]</label>
+          <mml:math id="M15"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:mi>n</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>s</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:msqrt><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>s</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>s</mml:mi></mml:mrow></mml:msqrt></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> By way of comparison, our consideration of the fluid forces embodied in Eq. <xref ref-type="disp-formula" rid="FD13">12</xref> differs from that of Crighton and Oswell (<xref ref-type="bibr" rid="R13">13</xref>), who treated the case of an infinite plate avoiding many of the complications of a finite plate, and is also different from the treatment of Fitt and Pope (<xref ref-type="bibr" rid="R8">8</xref>), who neglected the role of fluid added-mass. In the slightly different context of fish swimming, Lighthill (<xref ref-type="bibr" rid="R14">14</xref>) considered an undulating slender body such as an eel swimming at high Reynolds number for which he wrote <disp-formula id="FD16">
+          <mml:math id="M16"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:mi>Δ</mml:mi><mml:mi>P</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mo>∂</mml:mo></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>U</mml:mi><mml:msub><mml:mrow><mml:mo>∂</mml:mo></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>a</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>v</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> for the lateral force exerted by the fish on a water slice by equating it to the material derivative of the momentum liberated in the fluid, with <italic>a</italic>(<italic>x</italic>) as an ad hoc representation of the apparent mass of the cross section at <italic>x</italic>, and <italic>v</italic> = <italic>Y<sub>t</sub></italic> + <italic>UY<sub>x</sub></italic>. Our theory differs from this by explicitly accounting for the potential flow field and vortex shedding using the Theodorsen approach in the limit of small deformations when the vertical velocity <italic>v</italic> is almost constant, and suggests an obvious extension of our work to locomotion.
+      </p>
+      </sec>
+      <sec>
+        <title>Aeroelasticity</title>
+        <p>Substituting Eq. <xref ref-type="disp-formula" rid="FD13">12</xref> in Eq. <xref ref-type="disp-formula" rid="FD1">1</xref> (with <italic>T</italic> = 0) gives us a single equation of motion for the hydrodynamically driven plate <disp-formula id="FD17">
+          <label>[15]</label>
+          <mml:math id="M17"><mml:mstyle displaystyle="true"><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mi>m</mml:mi><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mi>B</mml:mi><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mi>x</mml:mi><mml:mi>x</mml:mi><mml:mi>x</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mo>-</mml:mo><mml:msub><mml:mi>ρ</mml:mi><mml:mi>f</mml:mi></mml:msub><mml:mi>U</mml:mi><mml:mi>C</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>γ</mml:mi><mml:mo stretchy="false">]</mml:mo><mml:mi>f</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mfrac><mml:mi>x</mml:mi><mml:mi>L</mml:mi></mml:mfrac><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>Y</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>U</mml:mi><mml:msub><mml:mi>Y</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mo>-</mml:mo><mml:mi>L</mml:mi><mml:msub><mml:mi>ρ</mml:mi><mml:mi>f</mml:mi></mml:msub><mml:mi>n</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mfrac><mml:mi>x</mml:mi><mml:mi>L</mml:mi></mml:mfrac><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo rspace="0.1em">,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mstyle></mml:math>
+        </disp-formula> with <italic>C</italic>[&#x003b3;] determined by Eq. <xref ref-type="disp-formula" rid="FD11">10</xref>. We note that Eq. <xref ref-type="disp-formula" rid="FD17">15</xref> accounts for the effects of unsteady flow past a flexible plate of finite length, including vortex shedding and fluid added-mass, but is only valid for small-amplitude motions. To make Eq. <xref ref-type="disp-formula" rid="FD17">15</xref> dimensionless, we scale all lengths with the length <italic>L</italic> of the flag, so that <italic>x</italic> = <italic>sL, Y</italic> = &#x003b7;<italic>L</italic>, and scale time with the bending time <italic>L</italic>/<italic>U<sub>B</sub></italic>, where <inline-formula>
+          <mml:math id="M18"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mrow><mml:mi>U</mml:mi></mml:mrow><mml:mrow><mml:mi>B</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">/</mml:mo><mml:mi>L</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:msqrt><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>B</mml:mi><mml:mo stretchy="false">/</mml:mo><mml:mi>m</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msqrt></mml:mrow></mml:mstyle></mml:math>
+        </inline-formula> is the velocity of bending waves of wavelength 2&#x003c0; <italic>L</italic>. Then Eq. <xref ref-type="disp-formula" rid="FD17">15</xref> may be written as <disp-formula id="FD18">
+          <label>[16]</label>
+          <mml:math id="M19"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>M</mml:mi><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi><mml:mi>τ</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>ssss</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mi>ρ</mml:mi><mml:msub><mml:mrow><mml:mi>u</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mi>C</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>γ</mml:mi><mml:mo stretchy="false">]</mml:mo><mml:mi>f</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>s</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>u</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> Here <inline-formula>
+          <mml:math id="M20"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>M</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>ρ</mml:mi><mml:mi>n</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>s</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mstyle></mml:math>
+        </inline-formula>, where &#x003c1; = (<italic>l</italic>&#x003c1;<italic><sub>f</sub>L</italic>/<italic>m</italic>) = (&#x003c1;<italic><sub>f</sub></italic>/&#x003c1;<italic><sub>s</sub></italic>)(<italic>L</italic>/<italic>h</italic>) characterizes the added mass effect and the parameter <italic>u</italic><sub>0</sub> = (<italic>U</italic>/<italic>U<sub>b</sub></italic>) is the ratio of the fluid velocity to the bending wave velocity in the plate. We can use symmetry arguments to justify the aerodynamic pressure <italic>C</italic>[&#x003b3;] <italic>f</italic>(<italic>s</italic>)(&#x003b7;<sub>&#x003c4;</sub> + <italic>u</italic><sub>0</sub>&#x003b7;<italic><sub>s</sub></italic>): the term &#x003b7;<italic><sub>s</sub></italic> arises because the moving fluid breaks the <italic>s</italic> &#x02192; &#x02013;<italic>s</italic> symmetry, while the term &#x003b7;<sub>&#x003c4;</sub> arises because the plate exchanges momentum with the fluid, so that the time reversibility &#x003c4; &#x02192; &#x02013;&#x003c4; symmetry is also broken. These two leading terms in the pressure, which could have been written down on grounds of symmetry, correspond to a lift force proportional to &#x003b7;<italic><sub>s</sub></italic> and a frictional damping proportional to &#x003b7;<sub>&#x003c4;</sub>. By considering the detailed physical mechanisms, we find that the actual form of these terms is more complicated due to the inhomogeneous dimensionless functions <italic>f</italic>(<italic>s</italic>), <italic>n</italic>(<italic>s</italic>). Thus, understanding the flapping instability reduces to a stability analysis of the trivial solution &#x003b7; = 0 of the system <bold>16</bold>, <bold>2</bold> to perturbations as a function of the problem parameters &#x003c1;, <italic>u</italic><sub>0</sub>.</p>
+        <p>Since the free vortex sheet is advected with the flow, the vorticity distribution may be written as &#x003b3; = &#x003b3;((2<italic>U</italic>/<italic>L</italic>) (<italic>t</italic> &#x02013; <italic>t</italic><sub>1</sub>) &#x02013; <italic>x</italic><sub>0</sub>) and <italic>t</italic><sub>1</sub> being the time at which shedding occurs, which in dimensionless terms reads &#x003b3; = &#x003b3;(2<italic>u</italic><sub>0</sub>(&#x003c4; &#x02013; &#x003c4;<sub>1</sub>) &#x02013; <italic>x</italic><sub>0</sub>). Accounting for the oscillatory nature of the flapping instability with an unknown frequency &#x003c9; suggests that an equivalent description of the vorticity distribution is given by &#x003b3; = <italic>Re</italic>(<italic>Ae<sup>i</sup></italic>
+        <sup>(&#x003c9;(&#x003c4;&#x02013;&#x003c4;1)&#x02013;<italic>qxo</italic></sup>), where <italic>q</italic> = &#x003c9;/2<italic>u</italic><sub>0</sub> is a nondimensional wave number of the vortex sheet. Using the above traveling wave form of the vorticity distribution in Eq. <xref ref-type="disp-formula" rid="FD11">10</xref> we get an expression for the Theodorsen function (<xref ref-type="bibr" rid="R3">3</xref>), <disp-formula id="FD19">
+          <label>[17]</label>
+          <mml:math id="M21"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:mi>C</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>γ</mml:mi><mml:mo stretchy="false">]</mml:mo><mml:mo>=</mml:mo><mml:mi>C</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>q</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>q</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>q</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>iH</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>q</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:mstyle></mml:math>
+        </disp-formula> where <italic>H<sub>i</sub></italic> are Hankel functions of <italic>i</italic>th order. The system <bold>16</bold>, <bold>17</bold>, <bold>2</bold> completes the formulation of the problem for the stability of a straight flag.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>Stability Analysis</title>
+      <p>To understand the mechanism of instability of the trivial solution of <xref ref-type="disp-formula" rid="FD18">16</xref>, <xref ref-type="disp-formula" rid="FD2">2</xref>, we note that for a typical textile flag in fast-moving air, the added-mass parameter &#x003c1; &#x02264; 1, while the scaled velocity <italic>u</italic><sub>0</sub> &#x0226b; 1. We can thus simplify Eq. <xref ref-type="disp-formula" rid="FD18">16</xref> even further by looking at the asymptotic limit &#x003c1; &#x02192; 0, <italic>u</italic><sub>0</sub> &#x02192; &#x0221e; but with the scaled aerodynamic pressure <inline-formula>
+          <mml:math id="M22"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>ρ</mml:mi><mml:msubsup><mml:mrow><mml:mi>u</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:mstyle></mml:math>
+      </inline-formula> being finite. Furthermore, in this limit the vorticity is advected rapidly from the trailing edge so that we can use the quasi-steady approximation (<xref ref-type="bibr" rid="R15">15</xref>). This supposes that the lift forces are slaved adiabatically to those on a stationary airfoil with the given instantaneous transverse velocity <italic>Y<sub>t</sub></italic> + <italic>UY<sub>x</sub></italic>, so that <italic>C</italic> &#x02192; 1, following Eq. <xref ref-type="disp-formula" rid="FD12">11</xref>. By assuming that the Kutta condition is satisfied instantaneously, we overestimate the lift forces and thus expect to get a threshold for stability that is slightly lower than if <italic>C</italic> &#x02260; 1. Then Eq. <xref ref-type="disp-formula" rid="FD18">16</xref> becomes time-reversible:<xref ref-type="fn" rid="FN8">h</xref>          <disp-formula id="FD20">
+        <label>[18]</label>
+        <mml:math id="M23"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi><mml:mi>τ</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>ssss</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mi>ρ</mml:mi><mml:msubsup><mml:mrow><mml:mi>u</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mi>f</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>s</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:math>
+      </disp-formula> The two terms on the right-hand side of Eq. <xref ref-type="disp-formula" rid="FD20">18</xref> correspond to the existence of two different modes of oscillation: (<italic>i</italic>) that of a flexible plate bending with a frequency that is dependent on the wavenumber and (<italic>ii</italic>) that of a rigid plate in the presence of flow-aligning aerodynamic forces. In this limiting case, we can clearly see the physical mechanisms at work in determining the stability or instability of the plate: Small plates are very stiff in bending, but as the plate length becomes large enough for the fluid pressure to excite a resonant bending instability, the plate starts to flutter. Equivalently, the instability is observed when the bending oscillation frequency become of the order of the frequency of oscillations of a hinged rigid plate immersed in a flow. This simple picture allows us to estimate the criterion for instability by balancing the bending forces (<italic>Eh</italic><sup>3</sup>&#x003b7;/<italic>L</italic><sup>4</sup>) with the aerodynamic forces &#x003c1;<italic><sub>f</sub>U</italic><sup>2</sup>(&#x003b7;/<italic>L</italic>) so that for a given flow field the critical velocity of the fluid above which the flag will flutter scales as <disp-formula id="FD21">
+        <label>[19]</label>
+        <mml:math id="M24"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:msub><mml:mrow><mml:mi>U</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mo>~</mml:mo><mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mi>Eh</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mi>L</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mfrac><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo stretchy="false">/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:mstyle></mml:math>
+      </disp-formula> which in dimensionless terms corresponds to <italic>u</italic><sub>0</sub> &#x0223c; 1/&#x003c1;<sup>1/2</sup>. Then the typical flapping frequency &#x003c9; is given by balancing plate inertia &#x003c1;<italic><sub>s</sub>h</italic>&#x003c9;<sup>2</sup>&#x003b7; with the aerodynamic forces &#x003c1;<italic><sub>f</sub>U</italic><sup>2</sup>(&#x003b7;/<italic>L</italic>) and leads to <disp-formula id="FD22">
+        <label>[20]</label>
+        <mml:math id="M25"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:mi>ω</mml:mi><mml:mo>~</mml:mo><mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mi>U</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:mi>hL</mml:mi></mml:mrow></mml:mfrac><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo stretchy="false">/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mstyle></mml:math>
+      </disp-formula> To see this quantitatively, we look for solutions to <bold>18</bold>, <bold>2</bold> of the form &#x003b7;(<italic>s</italic>, &#x003c4;) = &#x003be;(<italic>s</italic>)<italic>e</italic><sup>&#x003c3;&#x003c4;</sup> and compute the associated spectrum, &#x003c3;(<italic>u</italic><sub>0</sub>) using <sc>auto</sc> (<xref ref-type="bibr" rid="R16">16</xref>). In <xref ref-type="fig" rid="F2">Fig. 2</xref>, we show that for <inline-formula>
+        <mml:math id="M26"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mrow><mml:mi>u</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>&lt;</mml:mo><mml:msubsup><mml:mi>u</mml:mi><mml:mn>0</mml:mn><mml:mo>*</mml:mo></mml:msubsup><mml:mo>=</mml:mo><mml:mn>10</mml:mn><mml:mo>.</mml:mo><mml:mn>53</mml:mn><mml:mo stretchy="false">/</mml:mo><mml:msqrt><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow></mml:msqrt></mml:mrow></mml:mstyle></mml:math>
+      </inline-formula> with &#x003c1; &#x0226a; 1, the spectrum lies on the imaginary axis as expected, and as <italic>u</italic><sub>0</sub> &#x02265; <italic>u</italic>*<sub>0</sub>, the four eigenvalues with smallest absolute value collide and split, leading to an instability via a 1:1 resonance (<xref ref-type="bibr" rid="R17">17</xref>).</p>
+    	<fig position="float" id="F2">
+      	<label>Fig. 2.</label>
+      	<caption>
+      		<p>Spectrum <italic>Im</italic>(&#x003c3;), <italic>Re</italic>(&#x003c3;) of the system (18,2) when &#x003c1; &#x0226a; 1 (with <inline-formula>
+      			<mml:math id="M28"><mml:mstyle displaystyle="true"><mml:mrow><mml:msubsup><mml:mi>u</mml:mi><mml:mn>0</mml:mn><mml:mo>*</mml:mo></mml:msubsup><mml:mo>=</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mn>10</mml:mn><mml:mo>.</mml:mo><mml:mn>53</mml:mn><mml:mo stretchy="false">/</mml:mo><mml:msqrt><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow></mml:msqrt><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mstyle></mml:math>
+      		</inline-formula>). The eigenvalues with the smallest absolute value are plotted for <italic>u</italic><sub>0</sub> = 0.9<italic>u</italic>*<sub>0</sub> (disks) and for <italic>u</italic>
+      			<sub>0</sub> = 1.1<italic>u</italic>*<sub>0</sub> (square). We see that instability occurs via a collision and splitting of two pairs of eigenvalues along the imaginary axis (indicated by the arrows) and is a signature of a 1:1 resonance mechanism in a time-reversible system.</p>
+      	</caption>
+      	<graphic xlink:href="zpq0010568410002"></graphic>
+      </fig>
+      <p>As &#x003c1; &#x0223c; <italic>O</italic>(1), the effective damping term, &#x003c1;<italic>u</italic><sub>0</sub><italic>Cf</italic>(<italic>s</italic>)&#x003b7;<sub>&#x003c4;</sub>, becomes important, so that the spectrum is shifted to the left, i.e., <italic>Re</italic>(&#x003c3;) &#x0003c; 0. In this case, although the instability is not directly related to a resonance, the physical mechanism remains the same, i.e., a competition between the destabilizing influence of part of the fluid inertia and the stabilizing influence of elastic bending, subject to an effective damping due to fluid motion. Substituting the separable form &#x003b7;(<italic>s</italic>, &#x003c4;) = &#x003be;(<italic>s</italic>)<italic>e</italic><sup>&#x003c3;&#x003c4;</sup> into Eq. <xref ref-type="disp-formula" rid="FD18">18</xref> we get <disp-formula id="FD23">
+        <label>[21]</label>
+        <mml:math id="M27"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:msup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mi>M</mml:mi><mml:mi>ξ</mml:mi><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>ξ</mml:mi></mml:mrow><mml:mrow><mml:mi>ssss</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mi>C</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>γ</mml:mi><mml:mo stretchy="false">]</mml:mo><mml:mi>ρ</mml:mi><mml:msub><mml:mrow><mml:mi>u</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mi>f</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>s</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>σ</mml:mi><mml:mi>ξ</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>u</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>ξ</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mstyle></mml:math>
+      </disp-formula> At the onset of the oscillatory instability, <italic>Re</italic>(&#x003c3;) = 0, so that &#x003c3; = <italic>i</italic>&#x003c9; and <italic>C</italic>[&#x003b3;] is given by Eq. <xref ref-type="disp-formula" rid="FD19">17</xref>. Together with the boundary conditions <bold>2</bold>, this yields a nonlinear eigenvalue problem for &#x003c9;, &#x003be; since the Theodorsen function <italic>C</italic>(<italic>q</italic>) = <italic>C</italic>(&#x003c9;/2<italic>u</italic><sub>0</sub>) depends on &#x003c9;. We again solve the resulting system numerically with the <sc>auto</sc> package (<xref ref-type="bibr" rid="R16">16</xref>), using a continuation scheme in &#x003c9; starting with a guess for the Theodorsen function <italic>C</italic>(&#x003c9;/2<italic>u</italic><sub>0</sub>) = <italic>C</italic>(0) = 1. The results, shown in <xref ref-type="fig" rid="F3">Fig. 3</xref>, show that when <italic>u</italic><sub>0</sub> &#x0003e; <italic>u</italic>*<sub>0</sub>(&#x003c1;), <italic>Re</italic>(&#x003c3;) &#x0003e; 0 with Im(&#x003c3;) &#x02260; 0, i.e., an oscillatory instability leading to flutter arises. We see that for sufficiently large <italic>u</italic><sub>0</sub>, the plate is always unstable, i.e., large enough fluid velocities will always destabilize the elastic plate. As &#x003c1; &#x0226b; 1, the added mass effect becomes relatively more important and it is easier for the higher modes of the plate to be excited. We note that the stability boundary when <italic>C</italic> &#x02260; 1 accounting for vortex shedding corresponds to a higher value of the scaled fluid velocity <italic>u</italic><sub>0</sub> than that obtained by using the quasi-steady approximation <italic>C</italic> = 1, and is a consequence of the quasi-steady approximation, which overestimates the lift forces. In <xref ref-type="fig" rid="F3">Fig. 3</xref><italic>Inset</italic>, we see that as &#x003c1; &#x02192; 0, <italic>q</italic> &#x02192; 0. Therefore, <italic>C</italic>(<italic>q</italic>) = <italic>C</italic>(0) = 1 so that in this limit the quasi-steady hypothesis is a good approximation. In <xref ref-type="fig" rid="F4">Fig. 4</xref> we show the mode shapes when &#x003c1; &#x0003c; 1 and &#x003c1; &#x0226b; 1; as expected, the most unstable mode for &#x003c1; &#x0226b; 1 is not the fundamental mode of the plate. We also see that the normalized amplitude of the unstable modes is maximal at the trailing edge; this is a consequence of the inhomogeneous functions <italic>f</italic>(<italic>s</italic>), <italic>n</italic>(<italic>s</italic>) in Eq. <xref ref-type="disp-formula" rid="FD18">16</xref> as well as the clamped leading edge and a free trailing edge.</p>
+    	<fig position="float" id="F3">
+    		<label>Fig. 3.</label>
+    		<caption>
+    			<p>Stability diagram obtained by solving the eigenvalue problem <bold>16</bold>, <bold>2</bold> parametrized in terms of the scaled added mass, &#x003c1;, and the scaled flow velocity, <italic>u</italic>
+    				<sub>0</sub>. The thin dashed line represents the transition curve using the quasi-steady approximation where <italic>C</italic> = 1; for values of &#x003c1;, <italic>u</italic>
+    				<sub>0</sub> below this line, the flag is stable, and for values above it, it is unstable. The thin solid line represents the transition curve when vortex shedding is taken into account, i.e., <italic>C</italic> &#x02260; 1. The role of the third dimension and flag tension is considered in the appendices and changes the marginal stability curve slightly. The bold solid line is obtained by including three-dimensional effects using a simple model (see <italic>Appendix 1</italic>) for a flag of aspect ratio <italic>r</italic> = 2.5, and the bold dashed solid line takes into account the tension in the flag that arises due to viscous effects via a simple estimate of the Blasius boundary layer (see <italic>Appendix 2</italic>) with <italic>Re</italic> = 10<sup>4</sup>. The dots correspond to experimental data characterizing the transition to flutter in three-dimensional flows past flexible sheets of paper (<xref ref-type="bibr" rid="R7">7</xref>); the large error bars are a consequence of the variations due to three-dimensional effects as well as regions of bistability where both the flapping and stationary state are stable. (<italic>Inset</italic>) The dimensionless wavenumber of the instability <italic>q</italic> = (&#x003c9;/2<italic>u</italic>
+    				<sub>0</sub>) as a function of &#x003c1;. When &#x003c1; &#x0226a; 1, <italic>q</italic> tends to be zero and <italic>C</italic>(<italic>q</italic>) &#x02192; 1.
+    			</p>
+    		</caption>
+    		<graphic xlink:href="zpq0010568410003"></graphic>
+    	</fig>
+    	<fig position="float" id="F4">
+    		<label>Fig. 4.</label>
+    		<caption>
+    			<p>Snapshots corresponding to the mode of instability &#x003be;<sub>(</sub>
+    				<italic>
+    					<sub>s</sub>
+    				</italic>
+    				<sub>)</sub> with &#x003c1; = 0.2, <italic>u</italic>
+    				<sub>0</sub> &#x02248; 66 (<italic>a</italic>) and &#x003c1; = 25, <italic>u</italic>
+    				<sub>0</sub> &#x02248; 6.6 (<italic>b</italic>). We see that for sufficiently large values of the added mass parameter &#x003c1;, the primary instability of the flag flutter occurs in a higher mode than otherwise.
+    			</p>
+    		</caption>
+    		<graphic xlink:href="zpq0010568410004"></graphic>
+    	</fig>
+      <p>In <xref ref-type="fig" rid="F2">Fig. 2</xref> we also show the experimental transition curve obtained from a recent study on the onset of flutter in paper sheets (<xref ref-type="bibr" rid="R7">7</xref>). The large error bars in the experimental data are due to the fact that there is a region of bistability wherein both the straight and the flapping sheet are stable. Nevertheless, we see that we do capture the qualitative trends of the experiments, and in the following discussion we show that it is possible to do slightly better quantitatively by accounting for the effects of the tension in the flag due to viscous boundary layers and the third dimension.</p>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>Our linearized theory cannot capture the bistability in the transition to flutter without accounting for the various possible nonlinearities in the system arising from geometry. But even without accounting for these nonlinearities, there is a systematic discrepancy between our theory and the data, which consistently show a higher value of <italic>u</italic><sub>0</sub> for the onset of the instability. While there are a number of possible reasons for this, we believe that there are three likely candidates: The role of nonlocal interactions, three-dimensional effects, and the tension in the plate induced by the Blasius boundary layer, all of which would tend to stabilize the sheet and thus push the onset to higher values of <italic>u</italic><sub>0</sub>. Postponing the question of nonlocal interactions to the future, in <italic>Appendix 1</italic> we describe a simple model to account for three-dimensional effects and show that it pushes up the stability boundary as shown in <xref ref-type="fig" rid="F2">Fig. 2</xref>. An explanation of this effect follows immediately from the fact that the added-mass parameter is rescaled due to the effects of the lateral boundaries of the flag. In <italic>Appendix 2</italic>, we consider the role of the tension in the flag due to the fluid induced shear at large but finite Reynolds numbers. Using the Blasius boundary layer calculation to determine the tension, <italic>T</italic>, via (I.1) a reworking of the stability analysis in the previous section pushes up the marginal stability curve by &#x02248;20% when <italic>Re</italic> &#x0223c; 10<sup>4</sup>, making the comparison with the experimental data quantitatively better. A final remark concerns the role of the free vortex sheet behind the flag. We have assumed that this sheet is localized to the vicinity of <italic>y</italic> = 0, but experimental observations (<xref ref-type="bibr" rid="R6">6</xref>, <xref ref-type="bibr" rid="R7">7</xref>) show that a Kelvin&#x02013;Helmholtz-like instability destabilizes the sheet giving it a transverse velocity component. Thus, the vortex sheet is advected at a velocity slower than that of the fluid. Neglecting the transverse dynamics of the vortex sheet as done here overestimates the lift forces and lowers the marginal stability curve for the onset of the instability.</p>
+      <p>The commonplace occurrence of flutter in a flag belies the complexity hidden in this phenomenon. Extracting a qualitative and quantitative understanding involves the consideration of a number of effects. Our hierarchy of models starting with a relatively simple physical picture of the basic resonance-like behavior to the more sophisticated analyses in the quasi-steady and the unsteady cases have allowed us to dissect the physical mechanisms involved. In particular, we account for the finite length and finite bending stiffness of the sheet, as well as the fluid effects due to added-mass, vortex shedding, three-dimensional flow, and viscous boundary layer drag. We also provide a relatively simple criteria for the onset of the instability in terms of the scaling laws (19, 20). There are clear avenues for further questions, the most prominent of which include a detailed comparison with a two-dimensional numerical simulation and further experiments; these will be reported elsewhere.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material id="SD1" content-type="local-data">
+        <caption>
+          <title>Supporting Figure 1</title>
+        </caption>
+        <media mimetype="application" mime-subtype="pdf" xlink:href="SD1.pdf"/>
+      </supplementary-material>
+      <supplementary-material id="SD2" content-type="local-data">
+        <caption>
+          <title>Supporting Figure 2</title>
+        </caption>
+        <media mimetype="application" mime-subtype="pdf" xlink:href="SD2.pdf"/>
+      </supplementary-material>
+      <supplementary-material id="SD3" content-type="local-data">
+        <caption>
+          <title>Supporting Movie</title>
+        </caption>
+        <media mimetype="video" mime-subtype="mov" xlink:href="SD3.mov"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>This work was begun and brought to fruition when we were at Cambridge University; we dedicate this paper to the memory of Professor David G. Crighton, who first interested one of us (L.M.) in this problem nearly a decade ago. We thank M. Shelley, N. Vandenburghe, and J. Zhang for sharing their preprint with us. This work was supported by the European Community through Marie-Curie Fellowship HPMF-2002-01915 (to M.A.) and the U.S. Office of Naval Research through a Young Investigator Award (to L.M.).</p>
+    </ack>
+    <ref-list>
+      <ref id="R1">
+        <label>1</label>
+        <nlm-citation citation-type="book">
+          <person-group person-group-type="author">
+            <name><surname>Pa&#x000ef;doussis</surname><given-names>M. P.</given-names></name>
+          </person-group>
+          <source>Fluid-Structure Interaction: Slender and Axial Flow</source>
+          <year>1998</year>
+          <publisher-loc>London</publisher-loc>
+          <publisher-name>Academic</publisher-name>
+        </nlm-citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name><surname>Rayleigh</surname><prefix>Lord</prefix></name>
+          </person-group>
+          <source>Proc. Lond. Math. Soc.</source>
+          <year>1879</year>
+          <volume>X</volume>
+          <fpage>4</fpage><lpage>13</lpage>
+        </nlm-citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <nlm-citation citation-type="web">
+          <person-group person-group-type="author">
+            <name><surname>Theodorsen</surname>
+            <given-names>T</given-names></name>
+          </person-group>
+          <source>NACA Report 496</source>
+          <year>1935</year>
+          <comment><ext-link ext-link-type="uri" xlink:href="http://naca.larc.nasa.gov/reports/1935/naca-report-496">http://naca.larc.nasa.gov/reports/1935/naca-report-496</ext-link></comment>
+        </nlm-citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <citation citation-type="book">von Karman, T. &#x00026; Burger, J. M. (<year>1935</year>) in <source>Aerodynamic Theory</source>, ed. Durand, W. F. (Springer, Berlin), vol. <volume>2</volume>.</citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <nlm-citation citation-type="book">
+          <person-group person-group-type="author">
+            <name><surname>Glauert</surname><given-names>H.</given-names></name>
+          </person-group>
+          <source>Elements of aerofoil and airscrew theory</source>
+          <year>1997</year>
+          <edition>2nd Ed.</edition>
+          <publisher-loc>Cambridge, U.K.</publisher-loc>
+          <publisher-name>Cambridge Univ. Press</publisher-name>
+        </nlm-citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name><surname>Zhang</surname><given-names>J</given-names></name>
+            <name><surname>Childress</surname><given-names>S</given-names></name>
+            <name><surname>Libchaber</surname><given-names>A</given-names></name>
+            <name><surname>Shelley</surname><given-names>M</given-names></name>
+          </person-group>
+          <article-title>Flexible filaments in a flowing soap film as a model for one-dimensional flags in a two-dimensional wind</article-title>
+          <source>Nature</source>
+          <year>2000</year>
+          <volume>408</volume>
+          <fpage>835</fpage>
+          <lpage>839</lpage>
+        </nlm-citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name><surname>Watanabe</surname><given-names>Y</given-names></name>
+            <name><surname>Suzuki</surname><given-names>S</given-names></name>
+            <name><surname>Sugihara</surname><given-names>M</given-names></name>
+            <name><surname>Sueoka</surname><given-names>Y</given-names></name>
+          </person-group>
+          <article-title>An experimental study of paper flutter</article-title>
+          <source>J. Fluids Struct.</source>
+          <year>2002</year>
+          <volume>16</volume>
+          <fpage>529</fpage>
+          <lpage>542</lpage>
+        </nlm-citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name><surname>Fitt</surname><given-names>AD</given-names></name>
+            <name><surname>Pope</surname><given-names>MP</given-names></name>
+          </person-group>
+          <article-title>The unsteady motion of two-dimensional flags with bending stiffness</article-title>
+          <source>J. Eng. Math</source>
+          <year>2001</year>
+          <volume>40</volume>
+          <fpage>227</fpage>
+          <lpage>248</lpage>
+        </nlm-citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name><surname>Zhu</surname><given-names>L</given-names></name>
+            <name><surname>Peskin</surname><given-names>CS</given-names></name>
+          </person-group>
+          <article-title>Simulation of a flapping flexible filament in a flowing soap film by the immersed boundary method</article-title>
+          <source>J. Comp. Phys.</source>
+          <year>2002</year>
+          <volume>179</volume>
+          <fpage>452</fpage>
+          <lpage>468</lpage>
+        </nlm-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <nlm-citation citation-type="book">
+          <person-group person-group-type="author">
+            <name><surname>Landau</surname><given-names>LD</given-names></name>
+            <name><surname>Lifshitz</surname><given-names>EM</given-names></name>
+          </person-group>
+           <source>Theory of Elasticity</source>
+           <year>1987</year>
+           <publisher-loc>New York</publisher-loc>
+           <publisher-name>Pergamon</publisher-name>
+        </nlm-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <nlm-citation citation-type="book">
+          <person-group person-group-type="author">
+            <name><surname>Milne-Thompson</surname><given-names>LM</given-names></name>
+          </person-group>
+          <source>Theoretical Hydrodynamics</source>
+          <year>1960</year>
+          <publisher-loc>New York</publisher-loc>
+          <publisher-name>Macmillan</publisher-name>
+        </nlm-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <nlm-citation citation-type="book">
+          <person-group person-group-type="author">
+            <name><surname>Landau</surname><given-names>LD</given-names></name>
+            <name><surname>Lifshitz</surname><given-names>EM</given-names></name>
+          </person-group>
+          <source>Fluid Mechanics</source>
+          <year>1987</year>
+          <publisher-loc>New York</publisher-loc>
+          <publisher-name>Pergamon</publisher-name>
+        </nlm-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name><surname>Crighton</surname><given-names>DG</given-names></name>
+            <name><surname>Oswell</surname><given-names>J</given-names></name>
+          </person-group>
+          <article-title>Fluid mechanics and everyday life.</article-title>
+          <source>Philos. Trans. R. Soc. London A.</source>
+          <year>1991</year><volume>335</volume>
+          <fpage>557</fpage>
+          <lpage>562</lpage>
+        </nlm-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <nlm-citation citation-type="book">
+          <person-group person-group-type="author">
+            <name><surname>Lighthill</surname><given-names>J</given-names></name>
+          </person-group>
+          <source>Mathematical Biofluiddynamics</source>
+          <year>1975</year>
+          <publisher-loc>Philadelphia</publisher-loc>
+          <publisher-name>Soc. Indust. Appl. Math</publisher-name>
+        </nlm-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <nlm-citation citation-type="book">
+          <person-group person-group-type="author">
+            <name><surname>Fung</surname><given-names>YC</given-names></name>
+          </person-group>
+          <source>An Introduction to the Theory of Aeroelasticity</source>
+          <year>1969</year>
+          <publisher-loc>Mineola, NY</publisher-loc>
+          <publisher-name>Dover Phoenix Editions</publisher-name>
+        </nlm-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <nlm-citation citation-type="web">
+          <person-group person-group-type="inventor">
+            <name><surname>Doedel</surname><given-names>EJ</given-names></name>
+          </person-group>
+          <source><sc>auto</sc> 2000</source>
+          <year>2001</year>
+          <comment><ext-link ext-link-type="uri" xlink:href="http://sourceforge.net/projects/auto2000">http://sourceforge.net/projects/auto2000</ext-link></comment>
+        </nlm-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <nlm-citation citation-type="book">
+          <person-group person-group-type="author">
+            <name><surname>Marsden</surname><given-names>JE</given-names></name>
+            <name><surname>Ratiu</surname><given-names>TS</given-names></name>
+          </person-group>
+          <source>Introduction to Mechanics and Symmetry</source>
+          <year>1994</year>
+          <publisher-loc>New York</publisher-loc>
+          <publisher-name>Springer</publisher-name>
+        </nlm-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn id="FN2">
+        <label>b</label>
+        <p>Our analysis also carries over to the case of an elastic filament in a two-dimensional parallel flow.</p>
+      </fn>
+      <fn id="FN3">
+        <label>c</label>
+        <p>In the appendices, we treat the case where <italic>T</italic> &#x02260; 0 due to the presence of a Blasius boundary layer.</p>
+      </fn>
+      <fn id="FN4">
+        <label>d</label>
+        <p>The general solution of the Laplace equation in two dimensions with the given boundary conditions may be written as &#x003c6; = &#x0222b; <italic>dx</italic>&#x02032;<italic>L</italic>(<italic>Y<sub>t</sub></italic> + <italic>UY<sub>x</sub></italic>)/&#x0007c;<bold>x</bold> &#x02013; <bold>x</bold>&#x02032;&#x0007c; and yields a nonlocal potential. However, when the transverse velocity <italic>Y<sub>t</sub></italic> + <italic>UY<sub>x</sub></italic> varies slowly in space and is close to a constant, we may use the local approximation given by Eq. <xref ref-type="disp-formula" rid="FD3">3</xref>.</p>
+      </fn>
+      <fn id="FN5">
+        <label>e</label>
+        <p>When the plate moves, fluid must also be displaced and the sheet behaves as if it had more inertia (<xref ref-type="bibr" rid="R12">12</xref>).</p>
+      </fn>
+      <fn id="FN6">
+        <label>f</label>
+        <p>This implies a neglect of any acceleration phase of the vorticity, a reasonable assumption at high <italic>Re</italic>.</p>
+      </fn>
+      <fn id="FN7">
+        <label>g</label>
+        <p>This is tantamount to the statement that that the inclusion of viscosity, no matter how small, will regularize the flow in the vicinity of the trailing edge.</p>
+      </fn>
+      <fn id="FN8">
+        <label>h</label>
+        <p>This is because the term breaking time reversal symmetry &#x003c1;<italic>u</italic>
+          <sub>0</sub>&#x003b7;<sub>&#x003c4;</sub> becomes negligibly small.
+        </p>
+      </fn>
+    </fn-group>
+    <app-group>
+      <app>
+        <title>Appendix 1: Three-Dimensional Effects</title>
+        <p>In this appendix, we introduce an approach that accounts for three-dimensional effects. By introducing the noncirculatory velocity potential (Eq. <xref ref-type="disp-formula" rid="FD3">3</xref>), the flag is assumed to a flag of infinite span moving in the <italic>y</italic> direction with a velocity <italic>v</italic>. As a consequence, &#x003c6;<italic>
+            <sub>nc</sub>
+          </italic> did not depend on the <italic>z</italic> variable. To generalize the analysis of Theodorsen to the case when the flag has finite width, we assume the flag to be a rectangular plate of length <italic>L</italic> and width <italic>l</italic>. Integrating the equation of motion for the plate (Eq. <xref ref-type="disp-formula" rid="FD1">1</xref>) in the <italic>z</italic> direction to simplify the problem in this case yields <disp-formula id="FD24">
+            <label>[22]</label>
+            <mml:math id="M29"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>hlY</mml:mi></mml:mrow><mml:mrow><mml:mi>tt</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>BY</mml:mi></mml:mrow><mml:mrow><mml:mi>xxxx</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mn>2</mml:mn><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mo>∂</mml:mo></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>U</mml:mi><mml:msub><mml:mrow><mml:mo>∂</mml:mo></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:msubsup><mml:mrow><mml:mo>∫</mml:mo></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup><mml:mi>φ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mi>z</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>dz</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:mstyle></mml:math>
+          </disp-formula> where we have used the linearized Bernoulli equation to determine the pressure. The last term in Eq. <xref ref-type="disp-formula" rid="FD24">22</xref> simplifies when the flag is infinitely wide, i.e., when &#x003c6;(<italic>x</italic>, 0<sup>+</sup>, <italic>z</italic>) = &#x003c6;(<italic>x</italic>, 0<sup>+</sup>). More generally, we define the function <italic>A</italic>(<italic>r</italic>) <disp-formula id="FD25">
+            <label>[23]</label>
+            <mml:math id="M30"><mml:mstyle displaystyle="true"><mml:mrow><mml:msubsup><mml:mrow><mml:mo>∫</mml:mo></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup><mml:msub><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mi>nc</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mi>z</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>dz</mml:mi><mml:mo>=</mml:mo><mml:mi>lA</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>r</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:msub><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mi>nc</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo></mml:mrow></mml:mstyle></mml:math>
+          </disp-formula> where <italic>r</italic> = (<italic>l</italic>/<italic>L</italic>) is the aspect ratio of the flag, and &#x003c6;<italic>
+            <sub>nc</sub>
+          </italic>(<italic>x</italic>, 0<sup>+</sup>) is the noncirculatory potential corresponding to the infinitely wide flag. <italic>A</italic>(<italic>r</italic>) characterizes the importance of the third dimension, and we expect that <italic>A</italic>(<italic>r</italic>)/<italic>r</italic> &#x02192; 1 when <italic>r</italic> &#x02192; 0 and <italic>A</italic>(<italic>r</italic>) &#x02192; 1 when <italic>r</italic> &#x02192; &#x0221e;. Indeed, using a commercially available software program <sc>femlab</sc>, to compute &#x003c6;<italic>
+            <sub>nc</sub>
+          </italic> at <italic>y</italic> = 0<sup>+</sup> as a function of <italic>r</italic> confirms this, as shown in <xref ref-type="fig" rid="F5">Fig. 5</xref>. Similarly, since the circulatory potential computed via the Kutta condition (Eq. <xref ref-type="disp-formula" rid="FD9">8</xref>) is also proportional to <italic>A</italic>(<italic>r</italic>) so that Eq. <xref ref-type="disp-formula" rid="FD24">22</xref> reads <disp-formula id="FD26">
+            <label>[24]</label>
+            <mml:math id="M31"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>A</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>r</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>ρ</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi><mml:mi>τ</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>ssss</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mi>ρ</mml:mi><mml:mi>A</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>r</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:msub><mml:mrow><mml:mi>u</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mi>C</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>γ</mml:mi><mml:mo stretchy="false">]</mml:mo><mml:mi>f</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>s</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>τ</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>u</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mstyle></mml:math>
+          </disp-formula> We see that including three dimensional effects modify the added mass parameter and the pressure, both of which are rescaled by a factor <italic>A</italic>(<italic>r</italic>), which is smaller than unity. As a consequence, the marginal stability curve shown in <xref ref-type="fig" rid="F3">Fig. 3</xref> is shifted up, as shown in <xref ref-type="fig" rid="F3">Fig. 3</xref>, and is even closer to the experimental data. Of course, this simple model ignores the additional complexity of vorticity distributions along the edges of the flag, at <italic>z</italic> = 0,<italic>l</italic>, and is thus only suggestive of the general trend.
+        </p>
+      	<fig position="anchor" id="F5">
+        	<label>Fig. 5.</label>
+        	<caption>
+        		<p>Three-dimensional effects. (<italic>a</italic>) Plot of the noncirculatory velocity potential for an aspect ratio of the flag <italic>r</italic> = <italic>l</italic>/<italic>L</italic> = 1.5. (<italic>b</italic>) Plot of the aspect ratio function <italic>A</italic>(<italic>r</italic>) as function of <italic>r</italic>.</p>
+        	</caption>
+        	<graphic xlink:href="zpq0010568410005"></graphic>
+        </fig>
+      </app>
+      <app>
+        <title>Appendix 2: Tension Induced by the Boundary Layer</title>
+        <p>In high Reynolds number flows past the flag, the viscous boundary layer exerts a shear stress on the flag that puts in under a variable tension <italic>T</italic> which stretches the flag nonuniformly, being largest at the clamped anchor and vanishing at the trailing edge. This stabilizes the flag to some extent; in particular, it may be responsible for the experimentally observed subcritical nature of the instability (<xref ref-type="bibr" rid="R6">6</xref>). Restricting ourselves here to the case of the linearized theory for a slightly deformed flag with a Blasius boundary layer leads to a wall shear stress <inline-formula>
+            <mml:math id="M32"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>τ</mml:mi><mml:mo>~</mml:mo><mml:mi>l</mml:mi><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:msqrt><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>ν</mml:mi><mml:msup><mml:mrow><mml:mi>U</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:mo stretchy="false">/</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msqrt></mml:mrow></mml:mstyle></mml:math>
+          </inline-formula> (<xref ref-type="bibr" rid="R12">12</xref>), where &#x003bd; is the kinematic viscosity of the fluid. When combined with the equation for the balance of horizontal forces <italic>T<sub>x</sub></italic> = &#x02013;&#x003c4; and the boundary condition <italic>T</italic>(<italic>L</italic>) = 0, we find that <disp-formula id="FD27">
+            <label>[25]</label>
+            <mml:math id="M33"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>  </mml:mi><mml:mi>T</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:mfrac><mml:mfrac><mml:mrow><mml:mi>l</mml:mi><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mi>U</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mi>Re</mml:mi></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mrow><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msqrt><mml:mrow><mml:mfrac><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>L</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:msqrt><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:mstyle></mml:math>
+          </disp-formula>
+        where the characteristic Reynolds number is defined as <italic>Re</italic> = <italic>UL</italic>/&#x003bd; &#x0226b; 1. Using this simple relation in Eq. <xref ref-type="disp-formula" rid="FD1">1</xref> yields an eigenvalue problem similar to <bold>21</bold> for the instability threshold. Solving this with <italic>Re</italic> &#x0223c; 10<sup>4</sup> shifts the marginal stability curve upwards in the direction of the experimentally obtained one, as shown in <xref ref-type="fig" rid="F3">Fig. 3</xref>, but the effect is small.</p>
+      </app>
+    </app-group>
+  </back>
+  <floats-wrap>
+  		<table-wrap position="float" id="tbl1">
+  			<label>Table 1.</label>
+  			<caption>
+  				<title>Sphingolipid content of WT and Galgt1 Siat9 double-null brains</title>
+  				<p>Quantitation of ceramide (Cer), hexosylceramide (HexosylCer), lactosylceramide (LactosylCer), SM4s, and SM3 in lipid extracts from two brains from WT mice (WT 1 and 2) and two brains from <italic>Galgt1 Siat9</italic> double-null mice (<italic>Galgt1Siat9</italic>DN 1 and 2).</p>
+  			</caption>
+  			<table frame="hsides" rules="groups">
+  				<thead>
+  					<tr>
+  						<th colspan="1" rowspan="1" align="left" valign="top"> Sphingolipid </th>
+  						<th colspan="1" rowspan="1" align="center" valign="top"> WT 1 </th>
+  						<th colspan="1" rowspan="1" align="center" valign="top"> WT 2 </th>
+  						<th colspan="1" rowspan="1" align="center" valign="top"><italic>Galgt1 Siat9</italic> DN 1</th>
+  						<th colspan="1" rowspan="1" align="center" valign="top"><italic>Galgt1 Siat9</italic> DN 2</th>
+  					</tr>
+  				</thead>
+  				<tbody>
+  					<tr>
+  						<td colspan="1" rowspan="1" align="left" valign="top"> Cer </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 1,200 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 610 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 730 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 300 </td>
+  					</tr>
+  					<tr>
+  						<td colspan="1" rowspan="1" align="left" valign="top"> HexosylCer </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 4,400 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 4,700 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 4,700 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 7,600 </td>
+  					</tr>
+  					<tr>
+  						<td colspan="1" rowspan="1" align="left" valign="top"> LactosylCer </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> &#x0003c;200 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> &#x0003c;200 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 3,700 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 2,700 </td>
+  					</tr>
+  					<tr>
+  						<td colspan="1" rowspan="1" align="left" valign="top"> SM4s </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 2,200 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 2,000 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 2,800 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 2,700 </td>
+  					</tr>
+  					<tr>
+  						<td colspan="1" rowspan="1" align="left" valign="top"> SM3 (LacCer II<sup>3</sup>-sulfate) </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> &#x0003c;40 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> &#x0003c;40 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 450 </td>
+  						<td colspan="1" rowspan="1" align="right" valign="top"> 480 </td>
+  					</tr>
+  				</tbody>
+  			</table>
+  			<table-wrap-foot>
+  				<fn>
+  					<p>Values are in picomoles of lipid per milligram of wet weight.</p>
+  				</fn>
+  			</table-wrap-foot>
+  		</table-wrap>
+  </floats-wrap>
+</article>
